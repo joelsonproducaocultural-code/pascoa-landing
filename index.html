@@ -1,64 +1,94 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cia dos Ventos | Páscoa 2026</title>
-    <style>
-        /* DESIGN DE EMERGÊNCIA - RESOLVE O TAMANHO GIGANTE */
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background-color: #fff9f5; color: #4a2c1a; line-height: 1.6; }
-        .container { max-width: 1000px; margin: 0 auto; padding: 20px; text-align: center; }
-        
-        /* CONTROLE DAS FOTOS */
-        img { 
-            max-width: 100%; 
-            height: auto; 
-            border-radius: 20px; 
-            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-            margin-bottom: 20px;
-        }
-        .hero-img { max-width: 400px; } /* LIMITA O TAMANHO NO TOPO */
-        .gallery-img { max-width: 300px; display: inline-block; margin: 10px; }
-
-        /* ESTILO DOS BOTÕES */
-        .btn { background-color: #ff6b35; color: white; padding: 15px 30px; text-decoration: none; border-radius: 50px; font-weight: bold; display: inline-block; margin-top: 20px; transition: 0.3s; }
-        .btn:hover { background-color: #e85a28; transform: scale(1.05); }
-
-        header { padding: 60px 20px; background: linear-gradient(135deg, #fff9f5 0%, #ffe4d1 100%); }
-        h1 { font-size: 2.5rem; color: #d35400; margin-bottom: 10px; }
-        footer { background: #2d1b10; color: white; padding: 40px 20px; margin-top: 50px; }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cia dos Ventos | Mascotes & Espetáculo O Coelhinho da Páscoa</title>
+  <meta name="description" content="Mascotes artesanais de coelho e o espetáculo O Coelhinho da Páscoa. Arte, encantamento e produção profissional para eventos, escolas e prefeituras no Paraná." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="estilo.css" />
 </head>
 <body>
 
-    <header class="container">
-        <span style="font-size: 40px;">🐰</span>
-        <h1>A Magia da Páscoa <br><span style="color: #ff6b35;">Ganha Vida</span></h1>
-        <p>Arte, Encantamento e Mascotes Exclusivos da <strong>Cia dos Ventos</strong>.</p>
-        
-        <div style="margin-top: 30px;">
-            <img src="Coelhinho.JPG" alt="Mascote de Coelho" class="hero-img">
-        </div>
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <span class="logo-icon">🐰</span>
+        <span class="logo-text">Cia dos Ventos</span>
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#mascotes">Mascotes</a></li>
+        <li><a href="#espetaculo">Espetáculo</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contato" class="nav-cta">Contato</a></li>
+      </ul>
+    </div>
+  </nav>
 
-        <a href="https://wa.me/5541999999999" class="btn">Quero levar essa magia para minha cidade</a>
-    </header>
-
-    <section class="container" id="mascotes">
-        <h2>Nossos <span style="color: #ff6b35;">Mascotes</span></h2>
-        <p>Bonecos artesanais com design autoral para eventos e escolas.</p>
-        <div style="margin-top: 20px;">
-            <img src="Coelhinho.JPG" alt="Mascote 1" class="gallery-img">
-            <img src="Coelhinho1.JPG" alt="Mascote 2" class="gallery-img">
+  <section class="hero" id="hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="hero-badge">✨ Páscoa 2026 · Cia dos Ventos</div>
+        <h1 class="hero-title">
+          A Magia da Páscoa<br />
+          <span class="highlight">Ganha Vida</span>
+        </h1>
+        <p class="hero-subtitle">
+          Arte, Encantamento e Mascotes Exclusivos.<br />
+          Transforme seu evento com o espetáculo <strong>"O Coelhinho da Páscoa"</strong> e nossos bonecos artesanais de alto padrão.
+        </p>
+        <div class="hero-ctas">
+          <a href="#contato" class="btn btn-primary">
+            <span>Quero levar essa magia para minha cidade</span>
+          </a>
         </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p><strong>Cia dos Ventos - Bonecos Criativos</strong></p>
-            <p>Agende sua data para a <strong>Páscoa 2026</strong></p>
-            <p style="font-size: 0.8em; opacity: 0.7;">© 2026 Paraná, Brasil. Todos os direitos reservados.</p>
+      </div>
+      <div class="hero-images">
+        <div class="hero-img-card">
+          <img src="mascote1.jpg" alt="Mascote de Coelho Cia dos Ventos" loading="eager" style="max-width: 100%; border-radius: 15px;" />
         </div>
-    </footer>
+        <div class="hero-img-card">
+          <img src="mascote2.jpg" alt="Boneco artesanal de coelho" loading="eager" style="max-width: 100%; border-radius: 15px;" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="mascotes section-light" id="mascotes">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Mais que Bonecos,<br /><span class="highlight">Personagens com Alma</span></h2>
+        <p class="section-subtitle">Desenvolvidos com técnicas profissionais de formas animadas pela Cia dos Ventos.</p>
+      </div>
+      <div class="mascotes-gallery" style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+          <img src="mascote1.jpg" alt="Mascote 1" style="max-width: 300px; border-radius: 15px;">
+          <img src="mascote2.jpg" alt="Mascote 2" style="max-width: 300px; border-radius: 15px;">
+      </div>
+    </div>
+  </section>
+
+  <section class="sobre section-light" id="sobre">
+    <div class="container">
+      <h2 class="section-title">Experiência que se Vê no Palco</h2>
+      <p class="sobre-text">
+        Unimos a arte do teatro de animação com a gestão cultural profissional. Entregamos pontualidade, infraestrutura completa e conteúdo pedagógico adequado para todas as idades.
+      </p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container" style="text-align: center; padding: 40px 0;">
+      <div class="footer-brand">
+        <span class="logo-icon">🐰</span>
+        <span class="logo-text">Cia dos Ventos</span>
+      </div>
+      <p class="footer-text">Bonecos Criativos · Teatro de Animação · Paraná, Brasil</p>
+      <p class="footer-bottom">© 2026 Cia dos Ventos. Todos os direitos reservados.</p>
+    </div>
+  </footer>
 
 </body>
 </html>
